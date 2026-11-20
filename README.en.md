@@ -7,6 +7,8 @@ The [record of conflicts of interest](https://github.com/cpsbvbng26-dotcom/cpsbv
 This repository is that first-person record.
 Experience and verification are kept in separate sections and separate files.
 
+The archive is on Zenodo. The DOI of the first version is [`10.5281/zenodo.24396795`](https://doi.org/10.5281/zenodo.24396795), and the DOI common to all versions is [`10.5281/zenodo.24396794`](https://doi.org/10.5281/zenodo.24396794).
+
 ## Disclosure
 
 This record was set down on 2026-11-20.

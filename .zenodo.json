@@ -1,0 +1,22 @@
+{
+  "title": "budo-first-person-notes: a first-person record of training in Shinshin Toitsu Aikido, with experience and verification kept apart",
+  "description": "<p>A first-person record by the operator, who trained in Shinshin Toitsu Aikido (心身統一合氣道). The record of conflicts of interest of cpsbvbng26-dotcom allows the principle of ki to be handled only as a first-person record that discloses the position and the relationship between teacher and student and keeps experience apart from verification. The record of experience holds only what the operator has already stated in public records: the years of training, the organisation, the years under a teacher, two self-reported grades and their date, and an own account marked as not a verified fact. A separate file says what would count as checking each entry; nothing is claimed as checked. The record makes no claim about the effects of ki, names no teacher, and does not start a new research topic.</p><p>心身統一合氣道を稽古した運営者が、当事者として書く記録です。体験の記録と検証を分けて置きます。</p>",
+  "upload_type": "other",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "jpn",
+  "creators": [
+    {
+      "name": "Nemoto, Takuya",
+      "orcid": "0009-0000-1406-0547"
+    }
+  ],
+  "keywords": [
+    "first-person record",
+    "conflict of interest",
+    "disclosure",
+    "aikido",
+    "deterministic verification"
+  ],
+  "notes": "Claude Code (Anthropic) was used to write the record's form, the README text and the checks, at the author's request. The sentences of the record of experience were put into the first person from what the author stated in public records; no experience was added. The author is responsible for the content. Claude is not an author. The text and the records are CC BY 4.0 (LICENSE); the check scripts are MIT (LICENSE-CODE). The licence field of this record covers the text and the records only."
+}

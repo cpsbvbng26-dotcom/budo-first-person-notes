@@ -1,0 +1,58 @@
+{
+  "_": [
+    "体験の記録です。運営者が公開の記録で述べたことだけを置きます。稽古の体験を新しく足すのは、運営者が述べたときだけです。",
+    "sources は verification/sources.json の引用の名です。検査は、各項目の数と日付と語が、引いた出どころにあることを確かめます。",
+    "確かめたかどうかは、ここには書きません。確かめ方は records/verification.json にあり、項目を分けて置きます。"
+  ],
+  "entries": [
+    {
+      "id": "E1",
+      "kind": "statement",
+      "ja": "私は、心身統一合氣道を通算 7 年経験しました。稽古したのは、本場である栃木です。",
+      "en": "I trained in Shinshin Toitsu Aikido for 7 years in all. I trained in Tochigi, where the school has its home.",
+      "sources": ["coi-years", "solitary-years"]
+    },
+    {
+      "id": "E2",
+      "kind": "statement",
+      "ja": "稽古の所属団体は、心身統一合氣道会です。",
+      "en": "The organisation I trained under is the Shinshin Toitsu Aikido Kai.",
+      "sources": ["coi-org"]
+    },
+    {
+      "id": "E3",
+      "kind": "statement",
+      "ja": "私は、師範に 4 年間師事しました。学んだのは、氣の原理・統一体・体技・合氣剣・合氣杖・合氣短刀です。",
+      "en": "For 4 years I studied under a teacher (師範). I learnt the principle of ki, the unified body (統一体), the empty-hand techniques (体技), and the sword, staff and knife of aikido (合氣剣・合氣杖・合氣短刀).",
+      "sources": ["coi-teacher"]
+    },
+    {
+      "id": "E4",
+      "kind": "self-reported",
+      "ja": "心身統一合氣道の五級を受けました。免状の日付は 2020-01-01 です。",
+      "en": "I received fifth kyu (五級) of Shinshin Toitsu Aikido. The certificate is dated 2020-01-01.",
+      "sources": ["cv-gokyu", "cv-self-reported"]
+    },
+    {
+      "id": "E5",
+      "kind": "self-reported",
+      "ja": "心身統一道の初級を受けました。免状の日付は 2020-01-01 です。",
+      "en": "I received the first grade (初級) of Shinshin Toitsu Dō. The certificate is dated 2020-01-01.",
+      "sources": ["cv-shokyu", "cv-self-reported"]
+    },
+    {
+      "id": "E6",
+      "kind": "statement",
+      "ja": "心身統一合氣道での昇級は、五級が最後になりました。",
+      "en": "Fifth kyu was my last promotion in Shinshin Toitsu Aikido.",
+      "sources": ["coi-last"]
+    },
+    {
+      "id": "E7",
+      "kind": "own account",
+      "ja": "五級の頃に、師範から高い評価を受けたと、私は受け止めています。これは私自身の受け止めとして書くもので、確かめた事実ではありません。",
+      "en": "In my time at fifth kyu, I take it that the teacher rated me highly. This is my own account, not a verified fact.",
+      "sources": ["coi-rated", "coi-account"]
+    }
+  ]
+}

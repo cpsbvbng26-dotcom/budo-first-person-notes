@@ -1,0 +1,43 @@
+{
+  "_": [
+    "検証の欄です。何をすれば確かめたことになるかだけを置きます。確かめた結果は、どの項目にも書きません。",
+    "status は、いまはどれも not done です。確かめたら、その日と、だれがどの記録で確かめたかを足し、検査を同じ厳しさで改めます。"
+  ],
+  "items": [
+    {
+      "id": "V1",
+      "about": ["E1", "E3"],
+      "ja": "通算の年数と師事した年数を、団体か道場の在籍の記録と照らすことです。",
+      "en": "Comparing the years of training, and the years under the teacher, with the membership records of the organisation or the dojo.",
+      "status": "not done"
+    },
+    {
+      "id": "V2",
+      "about": ["E2"],
+      "ja": "所属の経歴を、団体の記録と照らすことです。",
+      "en": "Comparing the history of affiliation with the records of the organisation.",
+      "status": "not done"
+    },
+    {
+      "id": "V3",
+      "about": ["E4", "E5"],
+      "ja": "免状の現物の級と日付を、運営者のほかの人が見て照らすことです。CV は、証書が手元にあると書いています。",
+      "en": "Someone other than the operator comparing the grades and the dates with the certificates themselves. The CV says the certificates are at hand.",
+      "status": "not done"
+    },
+    {
+      "id": "V4",
+      "about": ["E6"],
+      "ja": "最後の昇級がどれかを、団体の記録と照らすことです。",
+      "en": "Comparing which promotion was the last with the records of the organisation.",
+      "status": "not done"
+    },
+    {
+      "id": "V5",
+      "about": ["E7"],
+      "ja": "この受け止めを確かめる道は、この記録にはありません。師範の名も言葉も、決めごと 10 により書かないためです。",
+      "en": "This record has no way to check this account. Neither the teacher's name nor the teacher's words are written, under rule 10.",
+      "status": "not done"
+    }
+  ]
+}

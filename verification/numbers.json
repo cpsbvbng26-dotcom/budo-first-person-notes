@@ -1,0 +1,21 @@
+{
+  "_": [
+    "散文に書いた数の台帳です（cpsbvbng26-dotcom の決めごと 5）。verification/check.py は README.md と README.en.md から数を拾い、ここのどれかに当たらなければ落ちます。",
+    "表の行は、records/ と突き合わせる検査（readme_tables と against_sources）が見るので、ここでは拾いません。",
+    "dates は、書いてよい日です。fixed は、決めた値とその形です。counts は、数えて確かめる数で、re の一つ目の括弧が数、count が数え方の名です。数え方は verification/sources.json の引用から数を読みます。"
+  ],
+  "dates": {
+    "2026-11-20": "この記録を置いた日。cpsbvbng26-dotcom の利益相反の記録の日"
+  },
+  "fixed": [
+    { "re": "CC BY 4\\.0", "why": "LICENSE の版" },
+    { "re": "0009-0000-1406-0547", "why": "運営者の ORCID iD" },
+    { "re": "決めごと 1[05]|rule 1[05]", "why": "cpsbvbng26-dotcom の決めごとの番号（10 は存命の人物、15 は独学の系列）" }
+  ],
+  "counts": [
+    { "re": "通算 (\\d+) 年", "count": "years_total" },
+    { "re": "for (\\d+) years in all", "count": "years_total" },
+    { "re": "そのうち (\\d+) 年は", "count": "years_teacher" },
+    { "re": "For (\\d+) of those years", "count": "years_teacher" }
+  ]
+}

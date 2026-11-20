@@ -1,0 +1,26 @@
+{
+  "_": [
+    "体験の記録が拠る、運営者の公開の記録からの引用です。どれも cpsbvbng26-dotcom の main の、記したコミットの版から一字一句そのまま写しました。",
+    "verification/check.py は、体験の記録の数と日付と語を、ここの引用と突き合わせます。--online は、同じファイルを main から取り寄せ直し、引用がいまもそこにあるかを見ます。"
+  ],
+  "repository": "cpsbvbng26-dotcom/cpsbvbng26-dotcom",
+  "commit": "c7c03426a1658bf2ec225464335a5b0650ff4f1b",
+  "read": "2026-11-20",
+  "quotes": {
+    "coi-years": { "file": "docs/conflicts-of-interest.md", "text": "私は、心身統一合氣道を 7 年間経験しました。" },
+    "coi-org": { "file": "docs/conflicts-of-interest.md", "text": "稽古の所属団体は、心身統一合氣道会です。" },
+    "coi-teacher": { "file": "docs/conflicts-of-interest.md", "text": "私は、氣の原理・統一体・体技・合氣剣・合氣杖・合氣短刀を、師範に 4 年間師事して学んだ当事者です。" },
+    "coi-rated": { "file": "docs/conflicts-of-interest.md", "text": "五級の頃には、師範から高い評価を受けた側でもあります。" },
+    "coi-account": { "file": "docs/conflicts-of-interest.md", "text": "これは私自身の受け止めとして書くもので、確かめた事実ではありません。" },
+    "coi-last": { "file": "docs/conflicts-of-interest.md", "text": "心身統一合氣道での昇級は、五級が最後になりました。" },
+    "coi-conditions": { "file": "docs/conflicts-of-interest.md", "text": "扱うとすれば、当事者記録としてだけです。\n立場と師弟関係を開示します。\n体験と検証を分けた形にします。\nどれかを欠く形では扱いません。" },
+    "coi-no-name": { "file": "docs/conflicts-of-interest.md", "text": "師範の名は書きません。\n師範を特定できる言い方もしません。" },
+    "coi-not-approved": { "file": "docs/conflicts-of-interest.md", "text": "この記録は、団体の承認を受けたものではありません。\n団体の名を、こちらの主張の裏付けには使いません。" },
+    "coi-series": { "file": "docs/conflicts-of-interest.md", "text": "この記録は、新しい研究の主題を始めるものではありません。\n独学の系列に、この主題を足しません。" },
+    "coi-en-conditions": { "file": "docs/conflicts-of-interest.en.md", "text": "If it is handled at all, it is only as a first-person record.\nMy position and the relationship between teacher and student are disclosed.\nExperience is kept apart from verification.\nIt is not handled in any form that lacks one of these." },
+    "solitary-years": { "file": "notes/solitary-school.html", "text": "本場である栃木で通算 7 年。" },
+    "cv-gokyu": { "file": "cv.html", "text": "<p>心身統一合氣道 五級<span>2020 年 1 月 1 日（免状の日付）" },
+    "cv-shokyu": { "file": "cv.html", "text": "<p>心身統一道 初級<span>2020 年 1 月 1 日（免状の日付）" },
+    "cv-self-reported": { "file": "cv.html", "text": "本人の申告です。証書は手元にありますが、検証ページが無いので、修了証とは別に置いています。" }
+  }
+}

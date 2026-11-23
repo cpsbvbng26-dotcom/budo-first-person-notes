@@ -244,6 +244,25 @@ DISCLOSE = {
 }
 
 
+# The note of 2026-11-23. That day the author considered treating the principle of ki as objective research, Claude read the
+# rules of the organisation, and the author decided the same day not to proceed. The record of conflicts of interest
+# kept its position of 2026-11-20. The note sits in the disclosure, after the conditions it leaves standing, links the
+# dated section of the record, and says the position is unchanged; the quotation kept in verification/sources.json
+# is the record's own sentence that the position has not changed (--online looks for it on main).
+NOTE_1123 = {
+    "README.md": ("\n### 2026-11-23 の追記\n", "coi-1123", "2026-11-20 の立場は、変わっていません。", [
+        "(https://github.com/cpsbvbng26-dotcom/cpsbvbng26-dotcom/blob/main/docs/conflicts-of-interest.md#2026-11-23-に検討したこと)",
+        "著者は、氣の原理を客観的な研究の対象にすることを考え、同じ日に進めないと決めました。",
+        "利益相反の記録の立場は、変わっていません。", "上に引いた 2026-11-20 の条件は、そのまま続きます。",
+        "このリポジトリは、いまも当事者記録です。", "体験と検証を分けて置くことも、変わりません。"]),
+    "README.en.md": ("\n### Note of 2026-11-23\n", "coi-en-1123", "The position of 2026-11-20 has not changed.", [
+        "(https://github.com/cpsbvbng26-dotcom/cpsbvbng26-dotcom/blob/main/docs/conflicts-of-interest.en.md#considered-on-2026-11-23)",
+        "The author considered treating the principle of ki as an object of objective research, and on the same day chose not to proceed.",
+        "The position of the record of conflicts of interest has not changed.", "The conditions of 2026-11-20 quoted above still hold.",
+        "This repository is still the first-person record.", "Experience and verification are still kept apart."]),
+}
+
+
 def disclosure(F):
     """The disclosure points to the record of conflicts of interest and restates its conditions word for word."""
     bad = []
@@ -261,6 +280,19 @@ def disclosure(F):
         for line in Q.get(k, {}).get("text", "?").split("\n"):
             if line not in F.get("README.md", ""):
                 bad.append("README.md: the disclosure lacks the record's own sentence「" + line[:20] + "」")
+    for f, (head, k, unchanged, must) in NOTE_1123.items():
+        sec = section(F.get(f, ""), HEADS[f][0])
+        at, cond = sec.find(head), sec.find("\n- ")
+        if at < 0 or cond < 0 or at < cond:
+            bad.append(f + ": the note of 2026-11-23 is not in the disclosure after the conditions")
+            continue
+        note = sec[at:]
+        for s in must:
+            if s not in note:
+                bad.append(f + ": the note of 2026-11-23 lacks「" + s[:30] + "」")
+        q = Q.get(k, {})
+        if q.get("file") != "docs/conflicts-of-interest" + (".md" if f == "README.md" else ".en.md") or unchanged not in q.get("text", ""):
+            bad.append(f + ": the quotation " + k + " does not keep the record's sentence that its position has not changed")
     return bad
 
 
@@ -317,7 +349,7 @@ CHECKS = [
     ("The years agree with the page on the solitary school, the years under the teacher do not exceed them, and the grades and their date are the CV's", years_and_grades),
     ("Both READMEs carry the entries and the items of verification word for word", readme_tables),
     ("Experience and verification are apart: sections in order, no claim of a check in the record of experience, every item not done", separation),
-    ("The disclosure links the record of conflicts of interest and restates its conditions, the name rule and rule 15", disclosure),
+    ("The disclosure links the record of conflicts of interest and restates its conditions, the name rule and rule 15, and the note of 2026-11-23 says the position is unchanged", disclosure),
     ("What is not handled is said in both READMEs; nothing claims an effect of ki; Sophaxis only where it is set aside", not_handled),
     ("No name of a person of the school", person_names),
     ("Copies of the canonical files and the licences are byte-identical (sha256)", rules.copies),
@@ -380,6 +412,12 @@ BREAKS = [
     (C[5], "README.md drops a condition", sub("README.md", "- 体験と検証を分けた形にします。\n", "")),
     (C[5], "README.md drops rule 15", sub("README.md", "独学の系列に、この主題を足しません。", "この記録は当事者の記録です。")),
     (C[5], "README.md drops that the organisation did not approve it", sub("README.md", "この記録は、団体の承認を受けたものではありません。\n", "")),
+    (C[5], "README.md drops the note of 2026-11-23", sub("README.md", "### 2026-11-23 の追記", "### 追記")),
+    (C[5], "README.en.md links another section of the record", sub("README.en.md", "#considered-on-2026-11-23)", "#dormant-conflicts-of-interest)")),
+    (C[5], "README.md says the position was changed", sub("README.md", "利益相反の記録の立場は、変わっていません。", "利益相反の記録の立場は、改められました。")),
+    (C[5], "README.en.md stops calling this the first-person record", sub("README.en.md", "This repository is still the first-person record.\n", "")),
+    (C[5], "the kept quotation no longer says the position is unchanged", sub(SRC, "2026-11-20 の立場は、変わっていません。", "2026-11-20 の立場を改めました。")),
+    (C[5], "the note of 2026-11-23 moves before the conditions", lambda G: G.__setitem__("README.en.md", G["README.en.md"].replace("The record of conflicts of interest sets these conditions:\n", "### Note of 2026-11-23\n\nThe record of conflicts of interest sets these conditions:\n", 1).replace("\n### Note of 2026-11-23\n\nA section", "\nA section", 1))),
     (C[6], "a claim about an effect of ki", add("README.md", "\n氣の原理には、体を整える効果があります。\n")),
     (C[6], "README.en.md drops that it makes no claim", sub("README.en.md", "- No claim is made about the effects of ki, either for or against.\n", "")),
     (C[6], "README.md names Sophaxis elsewhere", add("README.md", "\nこの記録は Sophaxis に載せます。\n")),

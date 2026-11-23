@@ -5,7 +5,8 @@
     "dates は、書いてよい日です。fixed は、決めた値とその形です。counts は、数えて確かめる数で、re の一つ目の括弧が数、count が数え方の名です。数え方は verification/sources.json の引用から数を読みます。"
   ],
   "dates": {
-    "2026-11-20": "この記録を置いた日。cpsbvbng26-dotcom の利益相反の記録の日"
+    "2026-11-20": "この記録を置いた日。cpsbvbng26-dotcom の利益相反の記録の日",
+    "2026-11-23": "cpsbvbng26-dotcom の利益相反の記録に、氣の原理の研究を検討して進めないと決めた節が足された日"
   },
   "fixed": [
     { "re": "CC BY 4\\.0", "why": "LICENSE の版" },

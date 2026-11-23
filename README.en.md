@@ -47,6 +47,16 @@ This is a first-person record, not self-taught work.
 If the principle of ki is ever handled as research, it goes by the routes that rule 15 names.
 These are routes such as JOSS, diamond open access venues, conference presentations and joint research.
 
+### Note of 2026-11-23
+
+A section of 2026-11-23 was added to the record of conflicts of interest of cpsbvbng26-dotcom.
+The author considered treating the principle of ki as an object of objective research, and on the same day chose not to proceed.
+The account is in [the section "Considered on 2026-11-23"](https://github.com/cpsbvbng26-dotcom/cpsbvbng26-dotcom/blob/main/docs/conflicts-of-interest.en.md#considered-on-2026-11-23) of that record.
+The position of the record of conflicts of interest has not changed.
+The conditions of 2026-11-20 quoted above still hold.
+This repository is still the first-person record.
+Experience and verification are still kept apart.
+
 ## Record of experience
 
 This section is written in the first person.

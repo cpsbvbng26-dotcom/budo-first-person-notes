@@ -4,8 +4,8 @@
     "verification/check.py は、体験の記録の数と日付と語を、ここの引用と突き合わせます。--online は、同じファイルを main から取り寄せ直し、引用がいまもそこにあるかを見ます。"
   ],
   "repository": "cpsbvbng26-dotcom/cpsbvbng26-dotcom",
-  "commit": "c7c03426a1658bf2ec225464335a5b0650ff4f1b",
-  "read": "2026-11-20",
+  "commit": "64ea87e31b2741e89a2cc92fe802a0be614f8190",
+  "read": "2026-11-23",
   "quotes": {
     "coi-years": { "file": "docs/conflicts-of-interest.md", "text": "私は、心身統一合氣道を 7 年間経験しました。" },
     "coi-org": { "file": "docs/conflicts-of-interest.md", "text": "稽古の所属団体は、心身統一合氣道会です。" },

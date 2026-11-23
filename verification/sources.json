@@ -4,8 +4,8 @@
     "verification/check.py は、体験の記録の数と日付と語を、ここの引用と突き合わせます。--online は、同じファイルを main から取り寄せ直し、引用がいまもそこにあるかを見ます。"
   ],
   "repository": "cpsbvbng26-dotcom/cpsbvbng26-dotcom",
-  "commit": "c7c03426a1658bf2ec225464335a5b0650ff4f1b",
-  "read": "2026-11-20",
+  "commit": "64ea87e31b2741e89a2cc92fe802a0be614f8190",
+  "read": "2026-11-23",
   "quotes": {
     "coi-years": { "file": "docs/conflicts-of-interest.md", "text": "私は、心身統一合氣道を 7 年間経験しました。" },
     "coi-org": { "file": "docs/conflicts-of-interest.md", "text": "稽古の所属団体は、心身統一合氣道会です。" },
@@ -17,6 +17,8 @@
     "coi-no-name": { "file": "docs/conflicts-of-interest.md", "text": "師範の名は書きません。\n師範を特定できる言い方もしません。" },
     "coi-not-approved": { "file": "docs/conflicts-of-interest.md", "text": "この記録は、団体の承認を受けたものではありません。\n団体の名を、こちらの主張の裏付けには使いません。" },
     "coi-series": { "file": "docs/conflicts-of-interest.md", "text": "この記録は、新しい研究の主題を始めるものではありません。\n独学の系列に、この主題を足しません。" },
+    "coi-1123": { "file": "docs/conflicts-of-interest.md", "text": "## 2026-11-23 に検討したこと\n\nこの節は、2026-11-23 に足しました。\n著者が述べたことを、Claude が書きました。\n上の 2026-11-20 の文は、消さずにそのまま残します。\n2026-11-20 の立場は、変わっていません。" },
+    "coi-en-1123": { "file": "docs/conflicts-of-interest.en.md", "text": "## Considered on 2026-11-23\n\nThis section was added on 2026-11-23.\nClaude wrote down what the author said.\nThe text of 2026-11-20 above stays as it was.\nThe position of 2026-11-20 has not changed." },
     "coi-en-conditions": { "file": "docs/conflicts-of-interest.en.md", "text": "If it is handled at all, it is only as a first-person record.\nMy position and the relationship between teacher and student are disclosed.\nExperience is kept apart from verification.\nIt is not handled in any form that lacks one of these." },
     "solitary-years": { "file": "notes/solitary-school.html", "text": "本場である栃木で通算 7 年。" },
     "cv-gokyu": { "file": "cv.html", "text": "<p>心身統一合氣道 五級<span>2020 年 1 月 1 日（免状の日付）" },
